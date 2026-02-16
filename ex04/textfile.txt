@@ -1,0 +1,4 @@
+esse arquivo vai ter diversas palavras
+e essa palavras serao lidas
+nao devem ser linhas por linha e sim
+palavra por palavra
