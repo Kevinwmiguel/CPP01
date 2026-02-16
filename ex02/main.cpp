@@ -5,21 +5,28 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: kwillian <kwillian@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/02/15 01:08:36 by kwillian          #+#    #+#             */
-/*   Updated: 2026/02/15 23:54:18 by kwillian         ###   ########.fr       */
+/*   Created: 2026/02/16 00:03:37 by kwillian          #+#    #+#             */
+/*   Updated: 2026/02/16 00:24:31 by kwillian         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
+#include <iostream>
+#include <string>
+#include <cctype>
 
 int main(void)
 {
-    Zombie *horde = zombieHorde(10, "KEVIN");
-    
-    Zombie *horde3 = zombieHorde(10, "James");
-    Zombie *horde2 = zombieHorde(10, "Smith");
-    delete[] horde;
-    delete[] horde2;
-    delete[] horde3;
+    std::string phrase = "HI THIS IS BRAIN";
+    std::string *stringPTR = &phrase;
+    std::string &stringREF = phrase;
+    //ADDRESSES
+    std::cout << "string " << &phrase << std::endl;
+    std::cout << "stringptr " << stringPTR << std::endl;
+    std::cout << "stringref " << &stringREF << std::endl;
+    std::cout << std::endl;
+    //values
+    std::cout << "value of string " << phrase << std::endl;
+    std::cout << "value of stringptr " << *stringPTR << std::endl;
+    std::cout << "value of stringref " << stringREF << std::endl;
     return 0;
 }
