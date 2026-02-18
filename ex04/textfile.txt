@@ -1,4 +1,4 @@
-esse arquivo vai ter diversas palavra1
+esse arquivo vai ter diversas palavra11
 e essa palavras serao lidas
-nao devem ser linhas por linha e sim
-palavra por palavra1
+nao devem palavra11 ser palavra11 linhas por linha e sim
+palavra por palavra11
