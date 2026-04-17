@@ -59,10 +59,11 @@ int main(int argc, char *argv[]){
             std::cerr << "File could no be open " << std::endl;
         std::cout << "\n";
         std::cout << text;
-
         std::ofstream fileout(result.c_str());
         fileout << text;
         fileout.close();
     }
+    else
+        std::cout << "Please use ./program filename wordToBeReplaced WordToReplace" << std::endl;
     return 0;
 }

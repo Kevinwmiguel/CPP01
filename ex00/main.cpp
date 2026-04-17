@@ -12,18 +12,6 @@
 
 #include "Zombie.hpp"
 
-/* Diferença entre Heap e Stack
-
-Stack é memória automática.
-Objetos criados nela vivem apenas dentro do bloco {} onde foram declarados e são destruídos automaticamente quando o bloco termina.
-Heap é memória dinâmica.
-Objetos criados nela vivem até você destruí-los manualmente com delete.
-🔹 Resumão mental:
-Stack → rápido, automático, vida curta.
-Heap → manual, mais flexível, vida controlada por você.
-🔹 Em uma frase de entrevista:
-Stack é gerenciada automaticamente pelo compilador, enquanto heap é gerenciada manualmente pelo programador.*/
-
 int main(void)
 {
 
