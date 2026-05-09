@@ -6,7 +6,7 @@
 /*   By: kwillian <kwillian@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 18:44:30 by kwillian          #+#    #+#             */
-/*   Updated: 2026/02/16 22:39:49 by kwillian         ###   ########.fr       */
+/*   Updated: 2026/04/27 16:03:19 by kwillian         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ Weapon::~Weapon()
 void    Weapon::setType(std::string newType)
 {
     this->type = newType;
+    std::cout << "THe value was changed with setType" << std::endl;
 }
 
 const std::string &Weapon::getType() const
